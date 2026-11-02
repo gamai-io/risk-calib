@@ -1,0 +1,346 @@
+[
+  {
+    "mode": "group",
+    "agents": [
+      "agent_finansije",
+      "agent_fakture",
+      "agent_prodaja"
+    ],
+    "reason": "Srednja pouzdanost=0.40 u [0.38,0.62); angažuje se grupa agenata za domen=finansije (multi-domen)",
+    "domain": "finansije",
+    "confidence": 0.4025,
+    "risk": 0.25,
+    "blocked": false
+  },
+  {
+    "mode": "single",
+    "agents": [
+      "agent_zalihe"
+    ],
+    "reason": "Visoka pouzdanost=0.71 >= 0.62 za domen=magacin; jedan nosivi agent je dovoljan.",
+    "domain": "magacin",
+    "confidence": 0.7074,
+    "risk": 0.0,
+    "blocked": false
+  },
+  {
+    "mode": "single",
+    "agents": [
+      "agent_analitika"
+    ],
+    "reason": "Visoka pouzdanost=0.80 >= 0.62 za domen=analitika; jedan nosivi agent je dovoljan.",
+    "domain": "analitika",
+    "confidence": 0.8012,
+    "risk": 0.0,
+    "blocked": false
+  },
+  {
+    "mode": "swarm",
+    "agents": [
+      "agent_general"
+    ],
+    "reason": "Niska pouzdanost=0.20 < 0.38; zadatak je neodređen/širok te se pokreće Roj agenata (domen≈opste).",
+    "domain": "opste",
+    "confidence": 0.2,
+    "risk": 0.0,
+    "blocked": false
+  },
+  {
+    "mode": "swarm",
+    "agents": [
+      "agent_general"
+    ],
+    "reason": "Niska pouzdanost=0.20 < 0.38; zadatak je neodređen/širok te se pokreće Roj agenata (domen≈opste).",
+    "domain": "opste",
+    "confidence": 0.2,
+    "risk": 0.0,
+    "blocked": false
+  },
+  {
+    "mode": "single",
+    "agents": [
+      "agent_kod"
+    ],
+    "reason": "Visoka pouzdanost=0.88 >= 0.62 za domen=kod; jedan nosivi agent je dovoljan.",
+    "domain": "kod",
+    "confidence": 0.8773,
+    "risk": 0.0,
+    "blocked": false
+  },
+  {
+    "mode": "swarm",
+    "agents": [
+      "agent_general"
+    ],
+    "reason": "Niska pouzdanost=0.10 < 0.38; zadatak je neodređen/širok te se pokreće Roj agenata (domen≈opste).",
+    "domain": "opste",
+    "confidence": 0.1,
+    "risk": 0.0,
+    "blocked": false
+  },
+  {
+    "mode": "swarm",
+    "agents": [
+      "agent_general"
+    ],
+    "reason": "Niska pouzdanost=0.10 < 0.38; zadatak je neodređen/širok te se pokreće Roj agenata (domen≈opste).",
+    "domain": "opste",
+    "confidence": 0.1,
+    "risk": 0.0,
+    "blocked": false
+  },
+  {
+    "mode": "single",
+    "agents": [
+      "agent_logistika"
+    ],
+    "reason": "Visoka pouzdanost=1.00 >= 0.62 za domen=logistika; jedan nosivi agent je dovoljan.",
+    "domain": "logistika",
+    "confidence": 1.0,
+    "risk": 0.0,
+    "blocked": false
+  },
+  {
+    "mode": "single",
+    "agents": [
+      "agent_knjizenje"
+    ],
+    "reason": "Visoka pouzdanost=1.00 >= 0.62 za domen=racunovodstvo; jedan nosivi agent je dovoljan.",
+    "domain": "racunovodstvo",
+    "confidence": 1.0,
+    "risk": 0.2,
+    "blocked": false
+  },
+  {
+    "mode": "single",
+    "agents": [
+      "agent_kadrovi"
+    ],
+    "reason": "Visoka pouzdanost=0.96 >= 0.62 za domen=kadrovi; jedan nosivi agent je dovoljan.",
+    "domain": "kadrovi",
+    "confidence": 0.9577,
+    "risk": 0.15,
+    "blocked": false
+  },
+  {
+    "mode": "single",
+    "agents": [
+      "agent_it"
+    ],
+    "reason": "Visoka pouzdanost=1.00 >= 0.62 za domen=it; jedan nosivi agent je dovoljan.",
+    "domain": "it",
+    "confidence": 1.0,
+    "risk": 0.0,
+    "blocked": false
+  },
+  {
+    "mode": "single",
+    "agents": [
+      "agent_marketing"
+    ],
+    "reason": "Visoka pouzdanost=0.94 >= 0.62 za domen=marketing; jedan nosivi agent je dovoljan.",
+    "domain": "marketing",
+    "confidence": 0.9416,
+    "risk": 0.0,
+    "blocked": false
+  },
+  {
+    "mode": "single",
+    "agents": [
+      "agent_podrska"
+    ],
+    "reason": "Visoka pouzdanost=0.92 >= 0.62 za domen=podrska; jedan nosivi agent je dovoljan.",
+    "domain": "podrska",
+    "confidence": 0.9248,
+    "risk": 0.0,
+    "blocked": false
+  },
+  {
+    "mode": "single",
+    "agents": [
+      "agent_pravo"
+    ],
+    "reason": "Visoka pouzdanost=0.91 >= 0.62 za domen=pravo; jedan nosivi agent je dovoljan.",
+    "domain": "pravo",
+    "confidence": 0.9056,
+    "risk": 0.3,
+    "blocked": false
+  },
+  {
+    "mode": "single",
+    "agents": [
+      "agent_nabavka"
+    ],
+    "reason": "Visoka pouzdanost=0.68 >= 0.62 za domen=nabavka; jedan nosivi agent je dovoljan.",
+    "domain": "nabavka",
+    "confidence": 0.6785,
+    "risk": 0.0,
+    "blocked": false
+  },
+  {
+    "mode": "single",
+    "agents": [
+      "agent_analitika"
+    ],
+    "reason": "Visoka pouzdanost=1.00 >= 0.62 za domen=analitika; jedan nosivi agent je dovoljan.",
+    "domain": "analitika",
+    "confidence": 1.0,
+    "risk": 0.0,
+    "blocked": false
+  },
+  {
+    "mode": "single",
+    "agents": [
+      "agent_prodaja"
+    ],
+    "reason": "Visoka pouzdanost=1.00 >= 0.62 za domen=prodaja; jedan nosivi agent je dovoljan.",
+    "domain": "prodaja",
+    "confidence": 1.0,
+    "risk": 0.0,
+    "blocked": false
+  },
+  {
+    "mode": "single",
+    "agents": [],
+    "reason": "HARD-BLOCK: rizik=0.85 >= 0.85 (domen=it). Zadr'zano na ljudsku verifikaciju prije izvršenja.",
+    "domain": "it",
+    "confidence": 1.0,
+    "risk": 0.85,
+    "blocked": true
+  },
+  {
+    "mode": "single",
+    "agents": [],
+    "reason": "HARD-BLOCK: rizik=0.90 >= 0.85 (domen=prodaja). Zadr'zano na ljudsku verifikaciju prije izvršenja.",
+    "domain": "prodaja",
+    "confidence": 1.0,
+    "risk": 0.9,
+    "blocked": true
+  },
+  {
+    "mode": "single",
+    "agents": [],
+    "reason": "HARD-BLOCK: rizik=1.00 >= 0.85 (domen=kadrovi). Zadr'zano na ljudsku verifikaciju prije izvršenja.",
+    "domain": "kadrovi",
+    "confidence": 0.4471,
+    "risk": 1.0,
+    "blocked": true
+  },
+  {
+    "mode": "single",
+    "agents": [
+      "agent_prodaja"
+    ],
+    "reason": "Visoka pouzdanost=1.00 >= 0.62 za domen=prodaja; jedan nosivi agent je dovoljan.",
+    "domain": "prodaja",
+    "confidence": 1.0,
+    "risk": 0.35,
+    "blocked": false
+  },
+  {
+    "mode": "swarm",
+    "agents": [
+      "agent_general"
+    ],
+    "reason": "Niska pouzdanost=0.20 < 0.38; zadatak je neodređen/širok te se pokreće Roj agenata (domen≈opste).",
+    "domain": "opste",
+    "confidence": 0.2,
+    "risk": 0.35,
+    "blocked": false
+  },
+  {
+    "mode": "group",
+    "agents": [
+      "agent_analitika",
+      "agent_report",
+      "agent_finansije"
+    ],
+    "reason": "Srednja pouzdanost=0.60 u [0.38,0.62); angažuje se grupa agenata za domen=analitika (multi-domen)",
+    "domain": "analitika",
+    "confidence": 0.6009,
+    "risk": 0.0,
+    "blocked": false
+  },
+  {
+    "mode": "group",
+    "agents": [
+      "agent_nabavka",
+      "agent_dobavljac",
+      "agent_knjizenje"
+    ],
+    "reason": "Srednja pouzdanost=0.50 u [0.38,0.62); angažuje se grupa agenata za domen=nabavka (multi-domen)",
+    "domain": "nabavka",
+    "confidence": 0.5007,
+    "risk": 0.0,
+    "blocked": false
+  },
+  {
+    "mode": "single",
+    "agents": [
+      "agent_zalihe"
+    ],
+    "reason": "Visoka pouzdanost=1.00 >= 0.62 za domen=magacin; jedan nosivi agent je dovoljan.",
+    "domain": "magacin",
+    "confidence": 1.0,
+    "risk": 0.0,
+    "blocked": false
+  },
+  {
+    "mode": "single",
+    "agents": [
+      "agent_kod"
+    ],
+    "reason": "Visoka pouzdanost=0.92 >= 0.62 za domen=kod; jedan nosivi agent je dovoljan.",
+    "domain": "kod",
+    "confidence": 0.9197,
+    "risk": 0.0,
+    "blocked": false
+  },
+  {
+    "mode": "swarm",
+    "agents": [
+      "agent_general"
+    ],
+    "reason": "Niska pouzdanost=0.20 < 0.38; zadatak je neodređen/širok te se pokreće Roj agenata (domen≈opste).",
+    "domain": "opste",
+    "confidence": 0.2,
+    "risk": 0.35,
+    "blocked": false
+  },
+  {
+    "mode": "swarm",
+    "agents": [
+      "agent_general"
+    ],
+    "reason": "Niska pouzdanost=0.20 < 0.38; zadatak je neodređen/širok te se pokreće Roj agenata (domen≈opste).",
+    "domain": "opste",
+    "confidence": 0.2,
+    "risk": 0.35,
+    "blocked": false
+  },
+  {
+    "mode": "single",
+    "agents": [
+      "agent_finansije"
+    ],
+    "reason": "Visoka pouzdanost=1.00 >= 0.62 za domen=finansije; jedan nosivi agent je dovoljan.",
+    "domain": "finansije",
+    "confidence": 1.0,
+    "risk": 0.25,
+    "blocked": false
+  },
+  {
+    "mode": "swarm",
+    "agents": [
+      "agent_prodaja",
+      "agent_ponuda",
+      "agent_nabavka",
+      "agent_zalihe"
+    ],
+    "reason": "Niska pouzdanost=0.35 < 0.38; zadatak je neodređen/širok te se pokreće Roj agenata (domen≈prodaja).",
+    "domain": "prodaja",
+    "confidence": 0.3507,
+    "risk": 0.0,
+    "blocked": false
+  }
+]
